@@ -42,6 +42,7 @@ def maxSubArray(nums):
 
 print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
 
+#kadane's algorithm
 def maxSubArray(nums):
     n=len(nums)
     max_sum = float('-inf')
